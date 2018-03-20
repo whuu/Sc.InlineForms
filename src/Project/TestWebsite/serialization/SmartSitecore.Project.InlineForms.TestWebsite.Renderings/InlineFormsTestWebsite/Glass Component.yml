@@ -1,0 +1,21 @@
+﻿---
+ID: "399ea37e-68e6-4272-be33-7e92f4bbd42a"
+Parent: "82e289b8-120e-4db2-8a7e-1932f2f3104e"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/InlineFormsTestWebsite/Glass Component
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: UseGlass
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Component
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180317T175646Z

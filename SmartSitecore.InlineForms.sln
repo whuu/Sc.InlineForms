@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{54FD2AAB-3AF5-4FF8-A65B-E7FA328FD60C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FAAE10BE-4935-4C18-9CBE-810F2E06590F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{2D83ABC7-C766-47DC-9F6F-DFB24AB76158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{26198AB9-C724-4DC1-9B07-F1BCA0CA5188}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InlineFormsRichText", "InlineFormsRichText", "{8E1E304B-1074-40B8-94DC-4D3C75BADB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSitecore.Foundation.InlineFormsRichText", "src\Foundation\InlineFormsRichText\code\SmartSitecore.Foundation.InlineFormsRichText.csproj", "{5837793A-584A-4DE1-8913-C9486FB26461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InlineFormsRenderer", "InlineFormsRenderer", "{4BB10CAF-21AB-4428-A359-F57537FE4C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSitecore.Foundation.InlineFormsRenderer", "src\Foundation\InlineFormsRenderer\code\SmartSitecore.Foundation.InlineFormsRenderer.csproj", "{09480CFF-18FD-43AA-937B-07072924384E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestWebsite", "TestWebsite", "{D0E7F3E8-AA3A-4A6F-AF41-C41EF8D8429D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSitecore.Project.InlineForms.TestWebsite", "src\Project\TestWebsite\code\SmartSitecore.Project.InlineForms.TestWebsite.csproj", "{BE25F3DE-6518-48BF-A573-6069AA67083D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{29661AE0-B56A-4794-A2B4-5309541B86CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSitecore.Foundation.InlineForms.Serialization", "src\Foundation\Serialization\code\SmartSitecore.Foundation.InlineForms.Serialization.csproj", "{CDA26134-43F7-4624-B20C-490991C1653C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5837793A-584A-4DE1-8913-C9486FB26461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5837793A-584A-4DE1-8913-C9486FB26461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5837793A-584A-4DE1-8913-C9486FB26461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5837793A-584A-4DE1-8913-C9486FB26461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE25F3DE-6518-48BF-A573-6069AA67083D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE25F3DE-6518-48BF-A573-6069AA67083D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE25F3DE-6518-48BF-A573-6069AA67083D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE25F3DE-6518-48BF-A573-6069AA67083D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E1E304B-1074-40B8-94DC-4D3C75BADB64} = {FAAE10BE-4935-4C18-9CBE-810F2E06590F}
+		{5837793A-584A-4DE1-8913-C9486FB26461} = {8E1E304B-1074-40B8-94DC-4D3C75BADB64}
+		{4BB10CAF-21AB-4428-A359-F57537FE4C17} = {FAAE10BE-4935-4C18-9CBE-810F2E06590F}
+		{09480CFF-18FD-43AA-937B-07072924384E} = {4BB10CAF-21AB-4428-A359-F57537FE4C17}
+		{D0E7F3E8-AA3A-4A6F-AF41-C41EF8D8429D} = {2D83ABC7-C766-47DC-9F6F-DFB24AB76158}
+		{BE25F3DE-6518-48BF-A573-6069AA67083D} = {D0E7F3E8-AA3A-4A6F-AF41-C41EF8D8429D}
+		{29661AE0-B56A-4794-A2B4-5309541B86CC} = {FAAE10BE-4935-4C18-9CBE-810F2E06590F}
+		{CDA26134-43F7-4624-B20C-490991C1653C} = {29661AE0-B56A-4794-A2B4-5309541B86CC}
+	EndGlobalSection
+EndGlobal
