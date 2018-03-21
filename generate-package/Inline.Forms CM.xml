@@ -1,0 +1,66 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Inline Foms</PackageName>
+      <Author>smartsitecore.com</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Default/Forms/{516F9450-7356-4059-B2A8-E67C2E90348B}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Default/Forms/Insert Form/{BAFC0F5B-14AB-4C6B-AA17-F2CA6CD695F9}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Full/Forms/{E77DF886-56D4-429C-A716-79D080E29767}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Full/Forms/Insert Form/{7D6133DE-726E-49F9-BD66-EE175A8AE7F6}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text IDE/Forms/{5D9AA019-866E-4B73-A27F-8825D856445E}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text IDE/Forms/Insert Form/{E4A8209E-30D8-4EF2-8B3D-975476D2EE01}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Medium/Forms/{6D8E3445-A827-4FFB-80E9-91DFF01E71C4}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Medium/Forms/Insert Form/{0B043A32-F331-4C64-8B7D-9E2DDB47D6AF}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>RTE Buttons</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Foundation/InlineForms/Foundation.InlineFormsRenderer.config</x-item>
+        <x-item>/App_Config/Include/Foundation/InlineForms/Foundation.InlineFormsRichText.config</x-item>
+        <x-item>/bin/SmartSitecore.Foundation.InlineFormsRenderer.dll</x-item>
+        <x-item>/bin/SmartSitecore.Foundation.InlineFormsRichText.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Inline.Forms files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
