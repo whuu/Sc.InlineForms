@@ -112,6 +112,7 @@
     <Content Include="App_Config\Include\Project\InlineForms.TestWebsite\Glass.Mapper.Sc.config" />
     <Content Include="App_Config\Include\Project\InlineForms.TestWebsite\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="sitecore modules\Web\ExperienceForms\scripts\jquery.validate.unobtrusive.bootstrap.min.js" />
     <Content Include="Views\InlineFormsTestWebsite\GlassComponentView.cshtml" />
     <Content Include="Views\Shared\Main Layout.cshtml" />
     <Content Include="Views\InlineFormsTestWebsite\ScComponentView.cshtml" />
