@@ -19,4 +19,4 @@ Editors have two options to insert the form, both work from Experience and Conte
 * In Content Management or Standalone server install [Inline Foms-1.0 CM.zip](sc.package) using Sitecore Installation Wizard.
 * In Content Delivery server copy the files from [Inline Foms-1.0 CD.zip](sc.package) to website root folder
 
-Make sure that you have `@Html.RenderFormStyles()` and `@Html.RenderFormScripts()` in your MVC layout with `@using Sitecore.ExperienceForms.Mvc.Html` directive
+To use Sitecore 9 Forms, make sure that you have `@Html.RenderFormStyles()` and `@Html.RenderFormScripts()` in your MVC layout with `@using Sitecore.ExperienceForms.Mvc.Html` directive
