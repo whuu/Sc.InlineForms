@@ -54,6 +54,22 @@
       <Exclude />
       <Name>Inline.Forms files</Name>
     </xfiles>
+    <xfiles>
+      <Entries>
+        <x-item>/scripts/Foundation/InlineFormsRichText/InsertFormRTE.js</x-item>
+        <x-item>/sitecore/shell/Controls/Rich Text Editor/InsertForm/InsertForm.js</x-item>
+        <x-item>/sitecore/shell/Controls/Rich Text Editor/InsertForm/InsertForm.xml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>RTE scripts</Name>
+    </xfiles>
   </Sources>
   <Converter>
     <TrivialConverter>
