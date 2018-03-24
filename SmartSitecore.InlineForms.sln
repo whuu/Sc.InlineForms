@@ -11,7 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{26198AB9
 	ProjectSection(SolutionItems) = preProject
 		nuget.config = nuget.config
 		publishsettings.targets = publishsettings.targets
-		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InlineFormsRichText", "InlineFormsRichText", "{8E1E304B-1074-40B8-94DC-4D3C75BADB64}"
@@ -29,6 +28,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{29661AE0-B56A-4794-A2B4-5309541B86CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSitecore.Foundation.InlineForms.Serialization", "src\Foundation\Serialization\code\SmartSitecore.Foundation.InlineForms.Serialization.csproj", "{CDA26134-43F7-4624-B20C-490991C1653C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{687BFDB6-E356-49A3-97A0-30FC425F64C0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		documentation\Sitecore-Inline-Forms-Experience-Editor.gif = documentation\Sitecore-Inline-Forms-Experience-Editor.gif
+		documentation\Sitecore-Inline-Forms-Rich-Text-Editor.gif = documentation\Sitecore-Inline-Forms-Rich-Text-Editor.gif
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
