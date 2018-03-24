@@ -8,6 +8,8 @@ Editors have two options to insert the form:
 
 ![Sitecore Inline Forms Experience Editor](documentation/Sitecore-Inline-Forms-Experience-Editor.gif)
 
+*You can find your form item IDs in Content Editor under /sitecore/Forms item*
+
 * **Pick a form from Rich Text Editor:**
 
 ![Sitecore Inline Forms Rich Text Editor](documentation/Sitecore-Inline-Forms-Rich-Text-Editor.gif)
