@@ -2,7 +2,7 @@
 
 Module allows to use Sitecore 9 Forms directly in Rich Text Field.
 
-Editors have two options to insert the form:
+Editors have two options to insert the form, both work from Experience and Content Editor:
 
 * **Type in [form id="form-itemid"] tag:**
 
