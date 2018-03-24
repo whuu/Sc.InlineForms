@@ -100,6 +100,7 @@
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\Foundation\InlineForms\SmartSitecore.InlineForms.DevSettings.config" />
+    <Content Include="App_Config\Include\Foundation\InlineForms\SmartSitecore.Foundation.InlineForms.Serialization.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="web.config" />
     <None Include="web.Debug.config">

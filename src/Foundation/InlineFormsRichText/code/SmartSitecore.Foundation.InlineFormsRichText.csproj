@@ -49,19 +49,19 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Sitecore.Client, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Client.NoReferences.9.0.171002\lib\NET462\Sitecore.Client.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.Client.NoReferences.9.0.171219\lib\NET462\Sitecore.Client.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ExperienceForms.Client, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Client.NoReferences.9.0.171002\lib\NET462\Sitecore.ExperienceForms.Client.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Client.NoReferences.9.0.171219\lib\NET462\Sitecore.ExperienceForms.Client.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ExperienceForms.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Mvc.NoReferences.9.0.171002\lib\NET462\Sitecore.ExperienceForms.Mvc.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Mvc.NoReferences.9.0.171219\lib\NET462\Sitecore.ExperienceForms.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.9.0.171002\lib\NET462\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.9.0.171219\lib\NET462\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Mvc.NoReferences.9.0.171002\lib\NET462\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.Mvc.NoReferences.9.0.171219\lib\NET462\Sitecore.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
